@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/country_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Title"
+        style="@style/country_title"
+        />
+    <TextView
+        android:id="@+id/country_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/country_code"
+        tools:text="Code"/>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        />
+</LinearLayout>
